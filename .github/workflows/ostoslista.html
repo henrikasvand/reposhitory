@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="ostoslista.css" rel="stylesheet" type="text/css">
+</head>
+<body class="container">
+    <header class="hdr">
+        <h1><strong>Lettuce</strong> help you in making a salad!</h1>
+        <p><em>Studies find that preparation helps to improve the final results of nearly everything!</em></p>
+    </header>
+
+    <div class="question">
+        <h3>What ingredients would you like to have in your salad?</h3>
+    </div>
+
+    <section>
+        <form> 
+            <div class ="C" id="C">
+                <label for="nam">Desired Product</label>
+                <input id="nam" type="text" name="name" value="ex. Tomatoes">
+                <label for="pri">Estimated Price</label>             
+                <input id="pri" type="number" name="price" value= "1">
+                <label for="pri">€</label>                
+                <div class="bttn">
+                    <input class="field" id="nappi" type="button" onclick=addProduct() value="Add to Your Hypotethical Cart">
+                </div>
+            
+            </div>
+            
+
+            <section class="shopping">
+                <ul id="shoppingList">
+                </ul>
+            </section>
+
+            
+            <footer class="total">
+                <p id="showTotalAmount">
+                </p>
+                <p id="mostExpensive">
+                </p>
+                <p id="leastExpensive">    
+                </p>
+                
+            </footer>
+            
+        </form>
+    </section>
+    <script src="ostoslista.js"></script>   
+</body>
+
+</html>

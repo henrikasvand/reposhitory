@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template: repeat(6, 225px) / repeat(6, 1fr);
+    grid-gap: 5px;
+    margin: auto;
+    justify-items: center;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    text-align: center;
+    grid-auto-flow: row;
+}
+
+.C {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color:hsl(0, 0%, 39%); 
+    border: 3px solid rgb(243, 243, 243);
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    justify-items: center;
+    width: 500px;
+    
+
+}
+.bttn {
+    margin: 25px 10px 10px 10px;
+}
+
+input {
+    /*border: 3px solid rgb(243, 243, 243);*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color:hsl(0, 0%, 39%);  
+}
+
+.shopping{
+    grid-area: 3/ 4/ span 2/ span 3;
+}
+
+footer {
+    grid-area: 5/ 1/ span 1/ span 6;
+}
+
+body {
+    background-color:hsla(194, 92%, 85%, 0.562);
+    background: -webkit-linear-gradient(-45deg,hsla(194, 92%, 85%, 0.562), hsla(200, 90%, 79%, 0.6));
+    text-align: center;
+    
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size:36px;
+    color:hsl(185, 29%, 15%);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    color:hsl(0, 0%, 39%);
+    font-weight: 200;
+    border: 3px solid rgb(243, 243, 243);
+    padding: 20px;   
+}
+
+p {
+    color:hsl(0, 0%, 39%);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+.hdr {
+    grid-area: 1/1/span 1/7;
+}
+
+.question {
+    grid-area: 2/1/span 1/7;
+}
